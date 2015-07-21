@@ -48,4 +48,27 @@ HPRD:human protein reference database
 we get TS and CS two sets for drug 'd' to form pharmacological space between d and drug seeds and one closeness(associate d with arbitrary protein) for drug-target protein. Concordance score computed based on three linear regression models between TS-fi,CS-fi,TS-CS-fi.(assume linear relation between three) and this score represents the intensity of the connection.
 
 
+####comparison between pharmacological metrics and genomic metrics
+
+genomic space--GR--defined by average closeness--fi--protein character
+
+pharmacological space--TS & CS--drug character
+
+shows no absolute relation between GR CS TS
+
+
+
+####performance of drugCipher
+
+**precision**-- proportion of success(known target was ranked at the top )--cipher MS highest 
+
+**sensitivity and specificity**--cipher ms highest
+
+**proportion of identifying interaction** -- cipher ms highest
+
+
+####Conclusion
+
+integration of multi dimensional information gains advantages in target identification and yields additional knowledge associating drugs with diseases and pathways predicting new applications of drug side effects.
+
 
