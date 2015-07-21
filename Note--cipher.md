@@ -67,6 +67,14 @@ shows no absolute relation between GR CS TS
 **proportion of identifying interaction** -- cipher ms highest
 
 
+####compare with other methods
+
+previous---limited number of proteins    no quantitative results 
+
+BLM--one of most precise--average performance of BLM by weight of number of corresponding interactions is much lower than cipher ms
+
+
+
 ####Conclusion
 
 integration of multi dimensional information gains advantages in target identification and yields additional knowledge associating drugs with diseases and pathways predicting new applications of drug side effects.
