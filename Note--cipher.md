@@ -10,11 +10,12 @@ methods:use both **chemical similarity** and **phenotypic index** in parmacologi
 results:speed identificatino of drug target 
         new applications and side effect for existing drugs
 
-**phenotypic effect-based approach** is based on responses to external compounds
+*phenotypic effect-based approach*is based on responses to external compounds
 
-**chemical structure-based approach** integrates drug chemical similarity and protein sequence/structure information
+*chemical structure-based approach* integrates drug chemical similarity and protein sequence/structure information
 
 **assumption and prediction**
+
 structurally similar drugs tend to bind similar protein 
 
 so associated drug pairs tend to have same targets and then the new drug-target interaction was predicted out
