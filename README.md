@@ -1,6 +1,7 @@
 ### MAXIF ON DRUG-TARGET PREDICITON
 Author: Helen Zhou and Songpeng Zu
 
+<<<<<<< HEAD
 #### Introduction
 This project is Helen's *first* science project in Tsinghua University under the help of Songpeng. In this project, our aim is not only to predict
 drug-protein interactions by maximum information flow algorithm, but also to have a good understanding about the scientific research. We will  
@@ -12,4 +13,6 @@ drug-protein interactions by maximum information flow algorithm, but also to hav
    + *Emacs*, *Vim*, *Github*, *Latex*
 
 Note that all these things have to be finished within five weeks. 
+=======
+>>>>>>> 938acaa4909cd8e57bcb69b77b06a6652d6fb255
 
