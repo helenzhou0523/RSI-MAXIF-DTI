@@ -8,7 +8,7 @@ import os
 import xml.sax
 
 class DrugBankHandler(xml.sax.ContentHandler):
-    def __int__(self):
+    def __init__(self):
         self.CurrentData = ""
         self.DrugBankID = ""
         self.smallmolecule = ""
