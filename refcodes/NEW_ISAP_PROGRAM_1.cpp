@@ -10,8 +10,7 @@
 using namespace std;
 
 double readstart, readend,cal_max_start, cal_max_end,total_start,total_end;
-double
-timer (void)
+double timer (void)
 {
    struct rusage r;
    getrusage(0,&r);
@@ -109,7 +108,7 @@ int maxflow(){
 }
 
 int main(int argc,char *argv[]){
-        total_start=timer();
+    total_start=timer();
 	int *v, *w, i=0,lineLength=1024,number=0,memory=1024,*temp,k=0,ranking=1;
 	FILE *fp,*fp1;
 	char *line;
@@ -150,6 +149,7 @@ int main(int argc,char *argv[]){
 	}
     	if(scanf("%d%d", &m, &n) != EOF)
 	{    // POJ 1273 need this while loop
+            cout<<"Yes, we read the random sample file!"<<endl;
 	        edge *buffer = new edge[2*m+2*memory];
 	        edge *data = buffer;
 
@@ -174,6 +174,7 @@ int main(int argc,char *argv[]){
 		while(m>memory)
 		{
 			memory=2*memory;
+                        cout<<"Update the memory space."<<endl;
 			temp=(int*)realloc(u,memory*sizeof(int));
 			if(temp!=NULL) u=temp;
 			else
@@ -203,14 +204,13 @@ int main(int argc,char *argv[]){
 	        readend=timer();
 	        printf("the time to read: %.3f\n",(readend-readstart));
 
-
 		data = buffer;
 		cal_max_start=timer();
 		for(i=1; i<=n; ++i) Net[i]=NULL;
 		while(fgets (line, lineLength, fp))
 		{
-
-			j++;
+                  cout<<"Now read the random sample file."<<endl;
+                        j++;
 			if(j>MaxTestNo)
 			{
 				MaxTestNo=2*MaxTestNo;
@@ -274,7 +274,7 @@ int main(int argc,char *argv[]){
 		}
 		for(i=0;i<m;i++)
 		{
-			if(u[i]==v[i]) continue;
+                        if(u[i]==v[i]) continue;
 			if(((u[i]==src)&&(v[i]==des))||((u[i]==des)&&(v[i]==src))) continue;
 			if(((u[i]==src)&&(v[i]==u[m-j]))||((u[i]==u[m-j])&&(v[i]==src))) continue;
 	            	Net[u[i]] = new((void*) data++) edge(v[i], w[i], Net[u[i]]);
