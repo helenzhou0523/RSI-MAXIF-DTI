@@ -1,0 +1,1 @@
+awk '{if ($3 >0.3) {print $0}}' drugdrug_similarity > D2D_sim_0.3
